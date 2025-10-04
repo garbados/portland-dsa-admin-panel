@@ -1,4 +1,4 @@
-### Contributing – Pilar Frontend
+### Contribution Guidelines
 
 Principles: minimal dependencies, junior‑friendly code, clear readability.
 

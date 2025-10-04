@@ -1,0 +1,29 @@
+{
+  "name": "@portland-dsa/admin-panel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend for the Portland DSA internal admin panel.",
+  "homepage": "https://github.com/portland-dsa/admin-panel#readme",
+  "bugs": {
+    "url": "https://github.com/portland-dsa/admin-panel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/portland-dsa/admin-panel.git"
+  },
+  "license": "GPL-3.0-only",
+  "author": "Portland DSA",
+  "scripts": {
+    "pretest": "standard --fix",
+    "test": "mocha test",
+    "cov": "nyc npm test"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.4",
+    "nyc": "^17.1.0",
+    "standard": "^17.1.2"
+  },
+  "dependencies": {
+    "html-alchemist": "^3.2.2"
+  }
+}

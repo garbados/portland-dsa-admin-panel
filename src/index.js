@@ -8,16 +8,16 @@ const api = Api.fromBaseURL('https://api.portlanddsa.org/')
 
 // TODO break into actual views. these are placeholders!
 const views = {
-  'welcome': () => alchemize(['h1.title', 'Welcome!']),
-  'account': () => alchemize(['h1.title', 'Your Account']),
-  'bodies': () => alchemize(['h1.title', 'Chapter Bodies']),
-  'members': () => alchemize(['h1.title', 'Chapter Members']),
-  '404': () => alchemize(['h1.title', `Not found: ${document.location.hash}`])
+  welcome: () => alchemize(['h1.title', 'Welcome!']),
+  account: () => alchemize(['h1.title', 'Your Account']),
+  bodies: () => alchemize(['h1.title', 'Chapter Bodies']),
+  members: () => alchemize(['h1.title', 'Chapter Members']),
+  404: () => alchemize(['h1.title', `Not found: ${document.location.hash}`])
 }
 
 function refreshMainWithHashView (views, urlHash) {
   if (urlHash.length === 0) {
-    refresh('main', views['welcome']())
+    refresh('main', views.welcome())
   } else {
     const match = Object.keys(views)
       .filter((viewPattern) => {

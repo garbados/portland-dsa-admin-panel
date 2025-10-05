@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const dayms = 24*60*60*1000 // good enough for javascript
+const dayms = 24 * 60 * 60 * 1000 // good enough for javascript
 
 // set a cookie with a default expiry of a week
 function setCookie (name, value, days = 7) {
@@ -28,7 +28,8 @@ export class Api {
     return new Api(axios.create({
       baseURL,
       responseType: 'json',
-      ...options }))
+      ...options
+    }))
   }
 
   constructor (axios) {

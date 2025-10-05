@@ -2,14 +2,7 @@ export const navbar = () =>
   [
     'nav.navbar',
     { role: 'navigation', 'aria-label': 'main navigation' },
-    [
-      'div.navbar-brand',
-      [
-        'a.navbar-item',
-        { href: '#' },
-        '🌹 [PDX-DSA] Admin Panel'
-      ]
-    ],
+    ['div.navbar-brand>a.navbar-item', { href: '#' }, '🌹 [PDX-DSA] Admin Panel'],
     [
       'div.navbar-menu',
       [

@@ -1,0 +1,17 @@
+{
+  "name": "Portland DSA - Admin Panel",
+  "short_name": "@pdx/admin",
+  "icons": [
+    {
+      "src": "ico/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "ico/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone"
+}

@@ -8,6 +8,6 @@ Principles: minimal dependencies, junior‑friendly code, clear readability.
 
 - **No LLMs.** (You cannot explain what an LLM does. You do not have mastery if an LLM does it for you. Are we not artisans, comrade?)
 - Code style: Vanilla JS in [Standard](https://www.npmjs.com/package/standard/) style.
-- Update docs (particularly `README.md` and `docs/ARCHITECTURE.md`) when behavior changes.
+- Update docs (particularly [README.md](../README.md) and [docs/ARCHITECTURE.md](./ARCHITECTURE.md)) when behavior changes.
 
 Thank you for your contribution!
